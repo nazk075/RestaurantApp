@@ -6,10 +6,10 @@
 import { MenuItem, SignatureDish, Testimonial, GalleryItem } from './types';
 
 export const HERO_IMAGE =
-  `${import.meta.env.BASE_URL}src/assets/images/luxury_restaurant_hero_1782460143602.jpg`;
+  `${import.meta.env.BASE_URL}images/luxury_restaurant_hero_1782460143602.jpg`;
 
 export const CHEF_IMAGE =
-  `${import.meta.env.BASE_URL}src/assets/images/executive_chef_1782460206535.jpg`;
+  `${import.meta.env.BASE_URL}images/executive_chef_1782460206535.jpg`;
 
 export const signatureDishes: SignatureDish[] = [
   {
@@ -19,7 +19,7 @@ export const signatureDishes: SignatureDish[] = [
     description: 'Fresh hand-harvested scallops accompanied by seawater foam, citrus infusion, and sea purslane. A delicate sensory exploration of the ocean.',
     price: '$48',
     ingredients: ['Diver Scallops', 'Ocean Emulsion', 'Finger Lime', 'Sea Purslane', 'Edible Gold'],
-    iimage: `${import.meta.env.BASE_URL}src/assets/images/signature_dish_1_1782460159166.jpg`
+    image: `${import.meta.env.BASE_URL}images/signature_dish_1_1782460159166.jpg`
   },
   {
     id: 'sd-2',
@@ -28,7 +28,7 @@ export const signatureDishes: SignatureDish[] = [
     description: 'A5 Miyazakigyu wagyu beef tenderly seared, finished with shaved white truffles from Alba, dark port glaze, and charred heirloom asparagus.',
     price: '$120',
     ingredients: ['A5 Miyazaki Wagyu', 'Alba White Truffle', 'Port Reduction', 'Bone Marrow Jus', 'Fleur de Sel'],
-    image: `${import.meta.env.BASE_URL}src/assets/images/signature_dish_2_1782460176382.jpg`
+    image: `${import.meta.env.BASE_URL}images/signature_dish_2_1782460176382.jpg`
   },
   {
     id: 'sd-3',
@@ -37,7 +37,7 @@ export const signatureDishes: SignatureDish[] = [
     description: 'A dark single-origin Venezuelan chocolate sphere encapsulating Madagascan vanilla gelato. Melted live at your table with rich warm salted caramel.',
     price: '$32',
     ingredients: ['72% Venezuelan Chocolate', 'Madagascan Vanilla Bean', 'Fleur de Sel Caramel', 'Gold Leaf', 'Dehydrated Raspberries'],
-    image: `${import.meta.env.BASE_URL}src/assets/images/signature_dish_3_1782460191606.jpg`
+    image: `${import.meta.env.BASE_URL}images/signature_dish_3_1782460191606.jpg`
   }
 ];
 
