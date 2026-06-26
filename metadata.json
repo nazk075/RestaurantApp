@@ -1,0 +1,6 @@
+{
+  "name": "Aurelia Fine Dining Restaurant",
+  "description": "A cinematic, immersive luxury fine dining experience inspired by modern design and Michelin-star excellence.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
